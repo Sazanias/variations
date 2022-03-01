@@ -5,7 +5,7 @@ body{ float: left;
 }
 
 h1 {
-    color: #ff0000;
+    color: #3283a8;
     padding: 30px;
     display: contents;
 }
@@ -43,5 +43,4 @@ strong {
 }
 
 div{padding: 40px;
-    color: aqua;
 }
