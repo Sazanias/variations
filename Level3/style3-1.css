@@ -1,0 +1,49 @@
+
+body{ padding: 50px;
+      display:inline-block;
+      margin: 40px;
+
+}
+
+
+h1 {
+    color: #7dadfa;
+    position: sticky;
+    
+    
+}
+
+h2 {
+    color: #2879fa;
+}
+
+h3 {
+    color: #0253d4;
+    height: 200px;
+    width: 100px;
+}
+
+h4 {
+    color: #00378f;
+    width: 70px;
+}
+
+h5 {
+    color: #002054;
+    width: 70px;
+}
+
+h6 {
+    color: #00112b;
+    width: 70px;
+}
+
+em {
+    background-color: none;
+    color: black;
+    
+}
+
+li {float: center;
+    
+}
