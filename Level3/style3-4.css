@@ -1,0 +1,25 @@
+
+h1 {
+    color: #d4d4d4;
+    
+}
+
+big { color: #d4d4d4;
+    height: 30px;
+    right: 50em;
+    
+}
+
+small {
+    position: top;
+    display:list-item;
+    float: right;
+    
+}
+
+
+strong{
+    top: 30px;
+
+
+}

@@ -1,0 +1,28 @@
+
+
+p{ 
+    color: #002395;
+   
+}
+
+h1 {
+    color: #ED2939;
+}
+
+em { color: #002395;
+}
+
+strong {
+    color: #ED2939;
+    position: top;
+}
+
+
+ol{
+    float: center;
+    padding:400px;
+    color:#c7d5fc;
+    top: 30px;
+
+
+}
