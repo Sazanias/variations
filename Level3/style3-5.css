@@ -1,26 +1,47 @@
 
-body{ float: right;
-    padding:90px;
-    color:white;
+body{ float: left;
+    padding:70px;
     width: 500px;
 }
 
 h1 {
-    color: #6b0b3e;
+    color: #ff0000;
+    padding: 30px;
+    display: contents;
 }
 
 
-h2{color: #6b0b3e;
-
+h2{color: #000000;   
+    padding: 30px;
 
 }
-em { color: #eb4a38;
+
+h3{color: #000000;
+    padding: 30px; 
+ 
+}
+
+h4{color: #000000;
+    padding: 30px;
+  
+}
+
+h5{color: #000000;
+    padding: 30px;
+    
+}
+
+h6{color: #000000;
+    padding: 30px;
+  
 }
 
 strong {
-    color: #eb4a38;
+    color: #000000;
+    padding: 30px;
+    width: 80px;
 }
 
-div{margin: 20px;
-
+div{padding: 40px;
+    color: aqua;
 }
