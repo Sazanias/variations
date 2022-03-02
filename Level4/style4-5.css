@@ -1,0 +1,55 @@
+
+body{font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+    color: #80001a;
+    font-size: 0.5em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+
+h2 {
+    color: #80001a;
+    font-size: 1em;
+    text-align: justify;
+    
+}
+
+h3 {
+    color: #80001a;
+    font-size: 0.5em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+
+h4 {
+    color: #80001a;
+    font-size: 1em;
+    text-align: justify;
+    
+}
+
+h5 {
+    color: #80001a;
+    font-size: 1.5em;
+    text-align: justify;
+    
+}
+
+h6 {
+    color: #80001a;
+    font-size: 2em; 
+    text-align: justify;   
+}
+    
+
+strong{
+    font-size: 2em;
+    color: #d62e00;
+    text-transform: uppercase;
+
+
+}

@@ -1,0 +1,35 @@
+
+body{font-family: 'Alfa Slab One', cursive;
+
+}
+
+h1 {
+    color: #00d6cb;
+    font-size: 4em;
+    
+}
+
+big { color: #0056d6;
+    height: 30px;
+    right: 50em;
+    font-size: 3em;
+    text-align: justify;
+    
+}
+
+small {
+    position: top;
+    display:list-item;
+    font-size: 2em;
+    text-align: justify;
+    
+    
+}
+
+
+strong{
+    font-size: 2em;
+    color: #00d6cb;
+
+
+}
