@@ -1,0 +1,62 @@
+html{ font-family: 'Syne Mono', monospace;
+    background-color: #6f00ff;
+    animation-name: screen;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+  
+      
+}
+
+h1 {
+font-size: 2em;
+    font-style: bold;
+    letter-spacing: 3em;
+    color: #000000;
+    width: 40;
+    color: white;
+}
+h2 {
+    font-size: 1em;
+        font-style: 900px;
+        color: #000000;
+        mix-blend-mode: overlay;
+        
+    
+    
+    }
+
+    h3 {
+        font-size: 1em;
+            font-style: bold;
+            color: white;
+            line-height: 25px;
+            
+        }
+em {
+    color: black;
+    font-size: 1em;
+    bottom: 500px;
+    mix-blend-mode: overlay;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 2em;
+    mix-blend-mode: overlay;
+}
+
+
+p {
+    font-size: 1.5em;
+    mix-blend-mode: overlay;
+}
+
+@keyframes screen {
+    from {background-color: #6f00ff;}
+    to {background-color: #d90955;}
+
+}
+
+   

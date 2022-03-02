@@ -1,0 +1,63 @@
+body{
+    font-family: 'Lexend Exa', sans-serif;
+    background-color: black;
+    background-image: url(https://static01.nyt.com/images/2018/01/17/arts/17VANGOGH-ITEM1/17VANGOGH-ITEM1-superJumbo.jpg);
+    animation-name: screen;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-size: 100% 100%;
+    padding: 50px;
+   
+    
+
+
+}
+h1 {
+    color: red;
+    font-family: 'PT Serif', serif;
+    font-size: 4em;
+    mix-blend-mode: overlay;
+    
+    
+}
+
+big { color: black;
+    height: 30px;
+    right: 50em;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: white;
+    mix-blend-mode: screen;
+    padding: 0px;
+    top: 50%;
+    left: 50%;
+    
+    
+}
+
+small {
+    position: top;
+    display:list-item;
+    float: right;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    mix-blend-mode: screen;
+    padding: 0px;
+    top: 50%;
+    left: 50%;
+    bottom: 50px;
+    
+}
+
+
+strong{
+    letter-spacing: 1em;
+    text-transform: uppercase;
+    mix-blend-mode: overlay;
+
+
+}
+

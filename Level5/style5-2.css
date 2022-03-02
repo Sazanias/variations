@@ -1,0 +1,62 @@
+html{ font-family: 'Smooch Sans', sans-serif;
+    background-image: url('https://images.saatchiart.com/saatchi/667282/art/2503704/1573695-HSC00001-7.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  
+  
+    
+      
+}
+
+h1 {
+font-size: 1.5em;
+    font-style: bold;
+    letter-spacing: 3em;
+    width: 40;
+    color: white;
+}
+h2 {
+    font-size: 2em;
+        font-style: 900px;
+        color: white;
+    
+    }
+
+em {
+    color: white;
+    font-size: 1em;
+    font-weight: 800px;
+    bottom: 500px;
+    display: contents;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 0.7em;
+    letter-spacing: 2.1em;
+    color: white;
+    
+}
+
+
+p {
+    font-size: 1em;
+    color: white;
+    text-align: left;
+   
+}
+
+div{ font-size: 1em;
+    color: white;
+    text-align: left;
+   
+
+}
+
+ol{ font-size: 1.5em;
+    color: white;
+   
+
+}
+
