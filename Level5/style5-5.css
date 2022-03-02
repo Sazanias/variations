@@ -1,0 +1,18 @@
+html{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    background-image: url(https://www.tate.org.uk/art/images/work/P/P07/P07109_10.jpg);
+    animation-name: screen;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-size: cover;
+}
+
+
+@keyframes screen {
+    from {background-image:url(https://www.tate.org.uk/art/images/work/P/P07/P07109_10.jpg) ;}
+    to {background-image:url(https://www.researchgate.net/profile/Neil-Dodgson/publication/220795326/figure/fig3/AS:688802238582793@1541234659391/A-computer-rendition-based-on-White-Discs-2-created-using-a-PostScript-program-of-1670_Q640.jpg) ;}
+
+}
+
