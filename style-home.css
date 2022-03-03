@@ -1,6 +1,7 @@
 html{ background-color: #eb4a38;
   font-family: 'Space Grotesk', sans-serif;
-  background-image: url(rimbaud_sensation.jpg);
+  background-image: url(Images/rimbaud_sensation.jpg);
+  background-size: cover;
 }
 
 

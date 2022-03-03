@@ -7,16 +7,19 @@ body {
 }
 
 .home {
-    background-color: #eb4a38;
     flex: 3;
 }
 
 nav {
-    background-color: #eb4a38;
     flex: 1;
     position: sticky;
     bottom: 1rem;
-    overflow: scroll;
+    height: 900px;
+    width:200px;
+    float: left;
+    border:0px solid white;
+    overflow-y: auto;
+    
   }
 
 main {
@@ -28,13 +31,17 @@ iframe {
     width: 100%;
     height: 100%;
     
+    
 }
 
 h1 {
 font-size: 3em;
     font-style: bold;
-    color: #ffffff;
-    text-align:left;
+    color: #eb4a38;;
+
+    
+    
+   
     
 }
 em {
@@ -53,25 +60,24 @@ strong {
 p {
     border: 0px solid black;
     font-size: 1em;
+    margin: right 20px;
+    text-align: left;
 }
 
 a{color: white;
     margin: 20px;
-    font-family: inherit;
+    padding: 5px;
     text-transform: uppercase;
-    padding: 10px;
     text-decoration:none;
-    text-align: left;
+    
     
 }
 
 
-
 hr{ top: 70px;
     border: 1px solid black;
+    margin: 20px;
 }
-
-
 
 
 .fill {
