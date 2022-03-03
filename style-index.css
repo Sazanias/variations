@@ -1,16 +1,33 @@
 html{ background-color: #eb4a38;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Space Grotesk', sans-serif;
 }
+
+body {
+    display: flex;
+}
+
+nav {
+    background-color: #eb4a38;
+    flex: 1;
+  }
+
+main {
+    background-color: #ffffff;
+    flex: 3;
+  }
 
 h1 {
 font-size: 3em;
     font-style: bold;
-    color: #ffffff;;
+    color: #ffffff;
+    text-align:left;
+    
 }
 em {
     background-color: none;
     color: black;
-    font-size: 1.5em;
+    font-size: 1em;
+    width: 2px;
 }
 
 strong {
@@ -23,3 +40,9 @@ p {
     border: 0px solid black;
     font-size: 1.5em;
 }
+
+a{color: #ffffff;
+
+}
+
+
