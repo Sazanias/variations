@@ -1,17 +1,26 @@
-html{ background-color: #eb4a38;
+html{ 
     font-family: 'Space Grotesk', sans-serif;
+    background-color: #6f00ff;
+    animation-name: screen;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    
 }
 
 body {
     display: flex;
+    
 }
 
 .home {
     flex: 3;
+  
 }
 
 nav {
-    flex: 1;
+    flex: 1.2;
     position: sticky;
     bottom: 1rem;
     height: 900px;
@@ -37,19 +46,19 @@ iframe {
 h1 {
 font-size: 3em;
     font-style: bold;
-    color: #eb4a38;;
-
-    
-    
-   
+    color: #eb4a38;
     
 }
+
+
+
 em {
     background-color: none;
     color: black;
     font-size: 1em;
     width: 2px;
 }
+
 
 strong {
     font-weight: bold;
@@ -60,8 +69,9 @@ strong {
 p {
     border: 0px solid black;
     font-size: 1em;
-    margin: right 20px;
+    margin:  none;
     text-align: left;
+    width: 350px;
 }
 
 a{color: white;
@@ -84,7 +94,7 @@ hr{ top: 70px;
     font-size: 14px;
     font-weight: 200;
     letter-spacing: 3px;
-    padding: 13px 5px 13px;
+    padding: 13px 50px 13px;
     outline: 0;
     border: 1px solid black;
     cursor: pointer;
@@ -110,3 +120,11 @@ hr{ top: 70px;
     top: 0px;
     left: 0px;
   }
+
+  @keyframes screen {
+    from {background-color: #6f00ff;}
+    to {background-color: #eb4a38;}
+
+}
+
+   

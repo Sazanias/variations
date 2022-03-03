@@ -1,20 +1,7 @@
 html{ background-color: #eb4a38;
   font-family: 'Space Grotesk', sans-serif;
-  background-image: url(Images/rimbaud_sensation.jpg);
+  background-image: url(Images/manuscrits.jpg);
   background-size: cover;
 }
 
 
-body {
-    display: flex;
-  }
-  
-  nav {
-    background-color: #ff9e2c;
-    flex: 1;
-  }
-  
-  main {
-    background-color: #b6701e;
-    flex: 3;
-  }
