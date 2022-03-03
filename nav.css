@@ -1,0 +1,13 @@
+body {
+    display: flex;
+  }
+  
+  nav {
+    background-color: #ff9e2c;
+    flex: 1;
+  }
+  
+  main {
+    background-color: #b6701e;
+    flex: 3;
+  }
