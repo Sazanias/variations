@@ -1,15 +1,15 @@
 html{ 
     font-family: 'Space Grotesk', sans-serif;
-    background-color: #ffd9ad;
-    animation-name: screen;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
-    animation-direction: alternate;
+    background-color: #ffffff;
     width: 100%;
     height: 100%;
+    margin-top: -8px;
+    background-size: auto;
     
 }
+
+.en{width: 100%;
+    height: 100%;}
 
 body {
     display: flex;
@@ -24,6 +24,7 @@ body {
     border:0px solid white;
     overflow-y: auto;
     width: 100%;
+    height: 100%;
     
   
 }
@@ -37,6 +38,7 @@ nav {
     border:0px solid white;
     overflow-y: auto;
     width: 100%;
+    height: 100%;
     
   }
 
@@ -44,6 +46,7 @@ main {
     background-color: #ffffff;
     flex: 3;
     width: 100%;
+    height: 100%;
     
   }
 
@@ -59,7 +62,15 @@ h1 {
 font-size: 3em;
     font-style: bold;
     color: #eb4a38;
-    
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+}
+
+h2 {color: #eb4a38;
+    letter-spacing: none;
+        
 }
 
 
@@ -86,7 +97,7 @@ p {
     width: 350px;
 }
 
-a{color: white;
+a{  color: black;
     margin: 20px;
     padding: 5px;
     text-transform: uppercase;
@@ -118,14 +129,14 @@ hr{ top: 70px;
   
   .fill::after {
     content: "";
-    background-color: black;
+    background-color: #d4d5d6;
     width: 100%;
     z-index: -1;
     position: absolute;
     height: 100%;
     top: 7px;
     left: 7px;
-    transition: 0.2s;
+    transition: 0.1s;
     
   }
   
@@ -135,10 +146,5 @@ hr{ top: 70px;
     left: 0px;
   }
 
-  @keyframes screen {
-    from {background-color: #ffd9ad;}
-    to {background-color: #ffd9ad;}
-
-}
 
    
