@@ -1,47 +1,59 @@
 html{ 
     font-family: 'Space Grotesk', sans-serif;
-    background-color: #6f00ff;
+    background-color: #ffd9ad;
     animation-name: screen;
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     animation-direction: alternate;
+    width: 100%;
+    height: 100%;
     
 }
 
 body {
     display: flex;
-    
+    width: 100%;
+    height: 100%;
 }
 
 .home {
     flex: 3;
+    width:200px;
+    float: left;
+    border:0px solid white;
+    overflow-y: auto;
+    width: 100%;
+    
   
 }
 
 nav {
     flex: 1.2;
-    position: sticky;
     bottom: 1rem;
-    height: 900px;
+    height: 100%;
     width:200px;
     float: left;
     border:0px solid white;
     overflow-y: auto;
+    width: 100%;
     
   }
 
 main {
     background-color: #ffffff;
     flex: 3;
+    width: 100%;
+    
   }
+
 
 iframe {
     width: 100%;
     height: 100%;
-    
-    
+       
 }
+
 
 h1 {
 font-size: 3em;
@@ -85,8 +97,9 @@ a{color: white;
 
 
 hr{ top: 70px;
-    border: 1px solid black;
-    margin: 20px;
+    border: 0.5px solid black;
+    margin: 35px;
+    
 }
 
 
@@ -123,8 +136,8 @@ hr{ top: 70px;
   }
 
   @keyframes screen {
-    from {background-color: #6f00ff;}
-    to {background-color: #eb4a38;}
+    from {background-color: #ffd9ad;}
+    to {background-color: #ffd9ad;}
 
 }
 
