@@ -113,6 +113,7 @@ hr{ top: 70px;
     top: 7px;
     left: 7px;
     transition: 0.2s;
+    
   }
   
   .fill:hover::after {
